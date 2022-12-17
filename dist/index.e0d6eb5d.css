@@ -1,0 +1,2283 @@
+@font-face {
+  font-family: GT Walsheim Pro;
+  src: url("GTWalsheimPro-Bold.29c73327.eot");
+  src: local(GT Walsheim Pro Bold), local(GTWalsheimPro-Bold), url("GTWalsheimPro-Bold.29c73327.eot") format("eot"), url("GTWalsheimPro-Bold.efd5d437.woff2") format("woff2"), url("GTWalsheimPro-Bold.0bfcdf2d.woff") format("woff"), url("GTWalsheimPro-Bold.d24942fc.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GT Walsheim Pro;
+  src: url("GTWalsheimPro-Regular.7d57558d.eot");
+  src: local(GT Walsheim Pro Regular), local(GTWalsheimPro-Regular), url("GTWalsheimPro-Regular.7d57558d.eot") format("eot"), url("GTWalsheimPro-Regular.6931ca2a.woff2") format("woff2"), url("GTWalsheimPro-Regular.b0608c48.woff") format("woff"), url("GTWalsheimPro-Regular.2fda5478.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Medium.f000803c.eot");
+  src: local(Roboto Medium), local(Roboto-Medium), url("Roboto-Medium.f000803c.eot") format("eot"), url("Roboto-Medium.ea7a0fbe.woff2") format("woff2"), url("Roboto-Medium.422259b7.woff") format("woff"), url("Roboto-Medium.2e75ae06.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.classnamer {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: start;
+  gap: 30px;
+  animation: 1s ease-in-out forwards animationr;
+  display: flex;
+}
+
+.classnamer .review {
+  box-sizing: border-box;
+  width: 630px;
+  height: 270px;
+  background: #fff;
+  border: 1px solid #000;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  display: flex;
+  position: relative;
+}
+
+.classnamer .review .date {
+  width: 150px;
+  height: 270px;
+  color: #fff;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: -1px 0 0 -1px;
+  display: flex;
+}
+
+.classnamer .review .date h3 {
+  font-family: GT Walsheim Pro;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.classnamer .review .date h6 {
+  text-transform: capitalize;
+  width: min-content;
+  font-family: GT Walsheim Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.classnamer .review .information {
+  width: 450px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.classnamer .review .information h1 {
+  font-family: GT Walsheim Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 92.5%;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.classnamer .review .information p {
+  width: 90%;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.classnamel {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: start;
+  gap: 30px;
+  animation: 1s ease-in-out forwards animationl;
+  display: flex;
+}
+
+.classnamel .review {
+  box-sizing: border-box;
+  width: 630px;
+  height: 270px;
+  background: #fff;
+  border: 1px solid #000;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  display: flex;
+  position: relative;
+}
+
+.classnamel .review .date {
+  width: 150px;
+  height: 270px;
+  color: #fff;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: -1px 0 0 -1px;
+  display: flex;
+}
+
+.classnamel .review .date h3 {
+  font-family: GT Walsheim Pro;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.classnamel .review .date h6 {
+  text-transform: capitalize;
+  width: min-content;
+  font-family: GT Walsheim Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.classnamel .review .information {
+  width: 450px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.classnamel .review .information h1 {
+  font-family: GT Walsheim Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 92.5%;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.classnamel .review .information p {
+  width: 90%;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@keyframes animationr {
+  0% {
+    -webkit-transform: translate(0);
+  }
+
+  50% {
+    -webkit-transform: translate(10px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+  }
+}
+
+@keyframes animationl {
+  0% {
+    -webkit-transform: translate(0);
+  }
+
+  50% {
+    -webkit-transform: translate(-10px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+body .rotate {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+  transform: rotate(270deg)translate(-20px, 40px);
+}
+
+body header {
+  height: 100px;
+  grid-template-columns: 2fr 6fr 2fr;
+  justify-content: center;
+  place-items: center;
+  display: grid;
+}
+
+body header nav {
+  width: 70%;
+  text-transform: capitalize;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  display: flex;
+}
+
+body header nav a {
+  color: #000;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+body header .login {
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: end;
+  display: flex;
+}
+
+body header .login button {
+  text-transform: capitalize;
+  width: 90px;
+  height: 50px;
+  background: none;
+  border: 0;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+body header .login .submit {
+  background: #f9dd64;
+  border: 1px solid #000;
+  position: relative;
+}
+
+body header .login .submit:after {
+  content: "";
+  z-index: -1;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: -5px;
+}
+
+body header:after {
+  content: "";
+  width: 95%;
+  height: 10px;
+  border: 1px solid #000;
+  border-top: 0;
+  position: absolute;
+  top: 100px;
+  left: 3%;
+}
+
+body .start_page {
+  width: 100%;
+  height: 840px;
+  border-bottom: 1px solid #000;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+body .start_page .inf {
+  width: 40%;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+body .start_page .inf img {
+  width: 100%;
+}
+
+body .start_page .inf p {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+body .start_page .inf .buttons {
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  display: flex;
+}
+
+body .start_page .inf .buttons button {
+  height: 50px;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  position: relative;
+}
+
+body .start_page .inf .buttons button:after {
+  content: "";
+  z-index: -1;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+}
+
+body .start_page .inf .buttons .try {
+  width: 120px;
+  background: #fff;
+  border: 1px solid #000;
+}
+
+body .start_page .inf .buttons .submit {
+  width: 215px;
+  background: #f9dd64;
+  border: 1px solid #000;
+}
+
+body .start_page .img {
+  width: 52%;
+}
+
+body .start_page .img img {
+  width: 100%;
+}
+
+body .mean {
+  width: 100%;
+  height: 800px;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+body .mean .inf {
+  width: 43%;
+  height: 130px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+body .mean .inf p {
+  width: 85%;
+  text-align: center;
+  height: 70px;
+  align-self: center;
+  margin-top: 25px;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+body .mean .pictures {
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}
+
+body .mean .pictures .ladder {
+  width: 40%;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+body .mean .pictures .ladder p {
+  height: 55px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  align-items: center;
+  padding-left: 5px;
+  font-family: GT Walsheim Pro;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+  display: flex;
+  position: relative;
+}
+
+body .mean .pictures .ladder p:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+body .mean .pictures .ladder p:nth-child(2n+1) {
+  color: #fff;
+  background: #000;
+}
+
+body .mean .pictures .ladder p:nth-child(1) {
+  width: 55%;
+}
+
+body .mean .pictures .ladder p:nth-child(2) {
+  width: 65%;
+  background: #dedfe1;
+}
+
+body .mean .pictures .ladder p:nth-child(3) {
+  width: 77%;
+}
+
+body .mean .pictures .ladder p:nth-child(4) {
+  width: 86%;
+  background: #fff;
+}
+
+body .mean .pictures .ladder p:nth-child(5) {
+  width: 100%;
+}
+
+body .mean .pictures .img {
+  width: 40%;
+}
+
+body .mean .pictures .img img {
+  width: 100%;
+}
+
+body .get {
+  width: 100%;
+  height: 1025px;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  gap: 20px;
+  margin-top: 20px;
+  display: grid;
+  position: relative;
+}
+
+body .get .img {
+  width: 30%;
+  grid-area: 3 / 3 / 4 / 13;
+  align-self: center;
+}
+
+body .get .rotate {
+  grid-area: 3 / 2 / 4 / 3;
+  justify-items: center;
+}
+
+body .get .blocks {
+  width: 90%;
+  height: 750px;
+  flex-flow: wrap;
+  grid-area: 4 / 3 / 13 / 13;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  display: flex;
+}
+
+body .get .blocks .block {
+  width: 300px;
+  height: 350px;
+}
+
+body .get .blocks .block h1 {
+  width: 107%;
+  margin: 18px 0 10px;
+  font-family: GT Walsheim Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+body .get .blocks .block p {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+body .skills {
+  width: 95%;
+  height: 405px;
+  margin: 100px 5%;
+}
+
+body .skills img {
+  width: 40%;
+}
+
+body .skills p {
+  width: 45%;
+  margin: 25px 0 65px;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+body .skills .wrap {
+  height: 220px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+body .skills .wrap .ladder {
+  height: 85%;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  display: flex;
+}
+
+body .skills .wrap .ladder p {
+  color: #fff;
+  width: 70%;
+  height: 55px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  align-items: center;
+  margin: 0;
+  padding-left: 5px;
+  font-family: GT Walsheim Pro;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+  display: flex;
+  position: relative;
+}
+
+body .skills .wrap .ladder p:nth-child(2n+1) {
+  background: #000;
+}
+
+body .skills .wrap .ladder p:nth-child(2) {
+  width: 82%;
+  background: #dedfe1;
+}
+
+body .skills .wrap .ladder p:nth-child(3) {
+  width: 100%;
+}
+
+body .skills .wrap .ladder p:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+body .skills .wrap .img {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+}
+
+body .skills .wrap .img img {
+  width: 70%;
+}
+
+body .skills .wrap .result {
+  width: 32%;
+  height: 100%;
+}
+
+body .skills .wrap .result p {
+  color: #fff;
+  width: 100%;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 3px 2px #000;
+  margin: 0;
+  font-family: GT Walsheim Pro;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.mentors_page {
+  width: 100%;
+  height: 850px;
+  border-top: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mentors_page .rotate {
+  width: initial;
+  height: 70px;
+  margin: -570px 0 0;
+}
+
+.mentors_page .inf {
+  width: 90%;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.mentors_page .inf h1 {
+  font-family: GT Walsheim Pro;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.mentors_page .inf p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.mentors_page .inf .mentor-slider {
+  height: 540px;
+  width: 100%;
+}
+
+.mentors_page .inf .mentor-slider .mentors {
+  width: 100%;
+}
+
+.mentors_page .inf .mentor-slider .mentors .swiper-slide {
+  width: 330px !important;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor {
+  height: 100%;
+  flex-direction: column;
+  justify-content: start;
+  gap: 12px;
+  display: flex;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor .portrait {
+  width: 290px;
+  height: 290px;
+  background: #fff;
+  border: 1px solid #000;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15px;
+  display: flex;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor .portrait img {
+  align-self: center;
+  margin-top: 2px;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor .portrait h1 {
+  width: 100%;
+  text-align: center;
+  font-family: GT Walsheim Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor .portrait:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 290px;
+  height: 290px;
+  background: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor .portrait:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  z-index: -2;
+  width: 290px;
+  height: 290px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor h6 {
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: start;
+  margin-top: 15px;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+  display: flex;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor h6 .mark {
+  width: 10%;
+  height: 22px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  display: flex;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor h6 .mark p {
+  margin: 0;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor h6 .mark img {
+  height: 70%;
+}
+
+.mentors_page .inf .mentor-slider .mentors .mentor p {
+  width: 90%;
+  color: #515151;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.mentors_page .inf .swiper-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.service {
+  width: 100%;
+  height: 680px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  position: relative;
+}
+
+.service .headinf {
+  width: 82%;
+  height: 85px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 20px;
+  display: flex;
+}
+
+.service .headinf img {
+  width: 34%;
+}
+
+.service .headinf p {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.service .headinf .rotate {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+  position: absolute;
+  top: 140px;
+  right: 94%;
+}
+
+.service .reviews_part {
+  width: 91%;
+  flex-direction: column;
+  justify-content: center;
+  align-self: end;
+  gap: 10px;
+  display: flex;
+}
+
+.service .reviews_part .arrows {
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.service .reviews_part .arrows p {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.service .reviews_part .arrows .buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  display: flex;
+}
+
+.service .reviews_part .arrows .buttons button {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  background: none;
+  border: 1px solid #f9dd64;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.service .reviews_part .arrows .buttons button img {
+  filter: invert(69%) sepia(98%) saturate(243%) hue-rotate(6deg) brightness(107%) contrast(95%);
+}
+
+.service .reviews_part .arrows .buttons button:nth-child(1) img {
+  transform: scale(-1, 1);
+}
+
+.service .reviews_part .arrows .buttons button:hover {
+  background: #f9dd64;
+  border-color: #000;
+}
+
+.service .reviews_part .arrows .buttons button:hover img {
+  filter: invert(0%) sepia() saturate(15%) hue-rotate(250deg) brightness(98%) contrast(105%);
+}
+
+.service .reviews_part .reviews {
+  width: 97%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.service .reviews_part .reviews .wrap {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: start;
+  gap: 30px;
+  display: flex;
+}
+
+.service .reviews_part .reviews .wrap .review {
+  box-sizing: border-box;
+  width: 630px;
+  height: 270px;
+  background: #fff;
+  border: 1px solid #000;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  display: flex;
+  position: relative;
+}
+
+.service .reviews_part .reviews .wrap .review .date {
+  width: 150px;
+  height: 270px;
+  color: #fff;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: -1px 0 0 -1px;
+  display: flex;
+}
+
+.service .reviews_part .reviews .wrap .review .date h3 {
+  font-family: GT Walsheim Pro;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.service .reviews_part .reviews .wrap .review .date h6 {
+  text-transform: capitalize;
+  width: min-content;
+  font-family: GT Walsheim Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.service .reviews_part .reviews .wrap .review .information {
+  width: 450px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.service .reviews_part .reviews .wrap .review .information h1 {
+  font-family: GT Walsheim Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 92.5%;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.service .reviews_part .reviews .wrap .review .information p {
+  width: 90%;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.service .reviews_part .reviews .review:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.tutorials {
+  width: 100%;
+  height: 655px;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  display: flex;
+  position: relative;
+}
+
+.tutorials .rotate {
+  position: absolute;
+  top: 107px;
+  left: 1%;
+}
+
+.tutorials .tutor_inf {
+  width: 82%;
+  height: 80px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.tutorials .tutor_inf img {
+  width: 40%;
+}
+
+.tutorials .tutor_inf p {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.tutorials .videos {
+  width: 82%;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.tutorials .videos .video {
+  width: 23%;
+  height: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.tutorials .videos .video video, .tutorials .videos .video iframe, .tutorials .videos .video .video_img img {
+  width: 100%;
+  height: 275px;
+  background: #fff;
+  position: relative;
+}
+
+.tutorials .videos .video .video_img {
+  position: relative;
+}
+
+.tutorials .videos .video .video_img:after {
+  content: "";
+  width: 66px;
+  height: 66px;
+  z-index: 20;
+  background: #000;
+  border-radius: 33px;
+  position: absolute;
+  top: 103px;
+  left: 35%;
+}
+
+.tutorials .videos .video .video_img:before {
+  content: "";
+  z-index: 25;
+  border: 10px solid #0000;
+  border-left: 15px solid #f9dd64;
+  position: absolute;
+  top: 126px;
+  left: 45%;
+}
+
+.tutorials .videos .video .name {
+  height: 55px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  display: flex;
+}
+
+.tutorials .videos .video .name h5 {
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.tutorials .videos .video .name p {
+  color: #515151;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.tutorials .videos .video:nth-child(3) video, .tutorials .videos .video:nth-child(3) .video_img img, .tutorials .videos .video:nth-child(3) iframe {
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+.tutorials .videos .video:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  height: 274px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.price_page {
+  height: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  position: relative;
+}
+
+.price_page h1 {
+  width: 82%;
+  font-family: GT Walsheim Pro;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.price_page p {
+  width: 82%;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.price_page .rotate {
+  width: min-content;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+  position: absolute;
+  top: 115px;
+  right: 96%;
+}
+
+.price_page .bg {
+  z-index: -2;
+  position: absolute;
+  top: 175px;
+  left: 32%;
+}
+
+.price_page .sessies {
+  width: 410px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 90px;
+  display: flex;
+}
+
+.price_page .sessies button {
+  color: #0009;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid #0009;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.price_page .sessies button:focus {
+  color: #000;
+  border-color: #000;
+}
+
+.price_page .prices {
+  width: 87%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+  display: flex;
+}
+
+.price_page .prices .price {
+  width: 23%;
+  height: 407px;
+  background: #fff;
+  border: 1px solid #000;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.price_page .prices .price .card {
+  width: 90%;
+  height: 370px;
+  place-items: start center;
+  display: grid;
+}
+
+.price_page .prices .price .card .cost {
+  width: 95%;
+  flex-direction: row;
+  grid-row: 1 / 2;
+  justify-content: space-between;
+  align-items: end;
+  gap: 5px;
+  display: flex;
+}
+
+.price_page .prices .price .card .cost .value {
+  font-family: GT Walsheim Pro;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 92.5%;
+}
+
+.price_page .prices .price .card .cost h1 {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.price_page .prices .price .card .cost:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  z-index: 0;
+  width: 88%;
+  height: 50px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 341px;
+  left: 18px;
+}
+
+.price_page .prices .price .card ul {
+  width: 80%;
+  flex-direction: column;
+  grid-row: 2 / 3;
+  justify-content: space-between;
+  align-self: start;
+  gap: 10px;
+  display: flex;
+}
+
+.price_page .prices .price .card ul p {
+  margin-left: -20px;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.price_page .prices .price .card ul li {
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.price_page .prices .price .card button {
+  width: 95%;
+  height: 50px;
+  z-index: 2;
+  background: #f9dd64;
+  border: 1px solid #000;
+  grid-row: 3 / 4;
+  align-self: center;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  position: relative;
+}
+
+.price_page .prices .price:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  z-index: -2;
+  border: 1px solid #000;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.feedback {
+  width: 100%;
+  height: 850px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  position: relative;
+}
+
+.feedback .fb1 {
+  width: 21%;
+  z-index: -2;
+  position: absolute;
+  top: 250px;
+  left: 5%;
+}
+
+.feedback .fb2 {
+  width: 20%;
+  z-index: -2;
+  position: absolute;
+  top: 500px;
+  left: 77%;
+}
+
+.feedback .feedinf {
+  width: 82%;
+}
+
+.feedback .feedinf img {
+  width: 30%;
+}
+
+.feedback .rotate {
+  width: 145px;
+  position: absolute;
+  top: 165px;
+  right: 91%;
+}
+
+.feedback form {
+  width: 35%;
+  height: 530px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.feedback form .feed_input {
+  height: 90px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  position: relative;
+}
+
+.feedback form .feed_input span {
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.feedback form .feed_input input {
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.feedback form .feed_input textarea::placeholder {
+  color: #dedfe1;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.feedback form .feed_input ::-moz-input-placeholder {
+  color: #dedfe1;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.feedback form .feed_input ::-webkit-input-placeholder {
+  color: #dedfe1;
+  padding-left: 3px;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.feedback form .feed_input select {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.feedback form .feed_input textarea {
+  width: 100%;
+  height: 115px;
+  box-sizing: border-box;
+}
+
+.feedback form label:nth-child(4) {
+  height: 150px;
+}
+
+.feedback form button {
+  width: 100%;
+  height: 50px;
+  background: #f9dd64;
+  border: 1px solid #000;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  position: relative;
+}
+
+.feedback form button:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid #000;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.feed_input:before {
+  content: "";
+  width: 99.5%;
+  height: 48px;
+  z-index: -1;
+  border: 1px solid #000;
+  position: absolute;
+  top: 40px;
+  left: 4px;
+}
+
+.feed_input:nth-child(4):before {
+  height: 116px;
+  top: 35px;
+}
+
+footer {
+  width: 100%;
+  height: 175px;
+  background: #000;
+  place-items: center;
+  display: grid;
+}
+
+footer .company_contacts {
+  height: 95px;
+  flex-direction: column;
+  grid-column: 1 / 3;
+  justify-content: space-between;
+  display: flex;
+}
+
+footer .company_contacts img {
+  filter: invert() sepia(0%) saturate(7483%) hue-rotate(82deg) brightness(109%) contrast(101%);
+}
+
+footer .company_contacts p {
+  color: #fff;
+  font-family: GT Walsheim Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+footer nav {
+  width: 70%;
+  text-transform: capitalize;
+  flex-direction: row;
+  grid-column: 3 / 9;
+  justify-content: space-between;
+  gap: 10px;
+  display: flex;
+}
+
+footer nav a {
+  color: #000;
+  color: #fff;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+footer .socials {
+  width: 65%;
+  flex-direction: row;
+  grid-column: 9 / 13;
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  @keyframes animationr {
+    from {
+      -webkit-transform: translate(0%);
+    }
+
+    to {
+      -webkit-transform: translate(-70%);
+    }
+  }
+
+  @keyframes animationl {
+    from {
+      -webkit-transform: translate(-70%);
+    }
+
+    to {
+      -webkit-transform: translate(0%);
+    }
+  }
+
+  body .start_page {
+    height: 690px;
+  }
+
+  body .start_page .inf .buttons {
+    width: 85%;
+  }
+
+  body .mean {
+    height: 650px;
+  }
+
+  body .mean .inf {
+    width: 60%;
+  }
+
+  body .get {
+    height: 1350px;
+    overflow: hidden;
+  }
+
+  body .get .blocks {
+    height: 1170px;
+    justify-content: space-around;
+  }
+
+  body .get .img {
+    width: 40%;
+  }
+
+  .tutorials {
+    height: 1240px;
+  }
+
+  .tutorials .rotate {
+    right: 95%;
+  }
+
+  .tutorials .videos {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .tutorials .videos .video {
+    width: 47%;
+    height: 450px;
+  }
+
+  .tutorials .videos .video .video_img {
+    height: 500px;
+  }
+
+  .tutorials .videos .video .video_img img {
+    height: 380px;
+  }
+
+  .tutorials .videos .video .video_img:before {
+    top: 188px;
+    left: 49%;
+  }
+
+  .tutorials .videos .video .video_img:after {
+    top: 165px;
+    left: 42%;
+  }
+
+  .tutorials .videos .video iframe, .tutorials .videos .video video, .tutorials .videos .video .video_img img, .tutorials .videos .video iframe {
+    height: 380px;
+  }
+
+  .tutorials .videos .video:after {
+    height: 380px;
+    top: 4px;
+  }
+
+  .price_page {
+    height: 1185px;
+  }
+
+  .price_page .bg {
+    top: 125px;
+    left: 24%;
+  }
+
+  .price_page .rotate {
+    top: 90px;
+  }
+
+  .price_page .prices {
+    height: 845px;
+    flex-wrap: wrap;
+  }
+
+  .price_page .prices .price {
+    width: 47%;
+  }
+
+  .price_page .prices .price .card .cost:after {
+    width: 85%;
+    left: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes animationr {
+    from {
+      -webkit-transform: translate(0);
+    }
+
+    to {
+      -webkit-transform: translate(-100%);
+    }
+  }
+
+  @keyframes animationl {
+    from {
+      -webkit-transform: translate(-100%);
+    }
+
+    to {
+      -webkit-transform: translate(0%);
+    }
+  }
+
+  body header {
+    grid-template-columns: 2fr 8fr;
+  }
+
+  body header .login {
+    display: none;
+  }
+
+  body header nav {
+    width: 80%;
+  }
+
+  body .mean .inf {
+    width: 85%;
+  }
+
+  body .mean .pictures .img {
+    width: 50%;
+  }
+
+  body .mean .pictures .ladder p {
+    font-size: 35px;
+  }
+
+  body .get {
+    height: 2350px;
+  }
+
+  body .get .blocks {
+    height: 2250px;
+    gap: 30px;
+  }
+
+  body .skills img {
+    width: 55%;
+  }
+
+  body .skills p {
+    width: 80%;
+  }
+
+  body .skills .wrap .img {
+    width: 37%;
+  }
+
+  body .skills .wrap .ladder p {
+    font-size: 35px;
+  }
+
+  body .skills .wrap .ladder p:nth-child(1) {
+    width: 90%;
+  }
+
+  body .skills .wrap .ladder p:nth-child(2) {
+    width: 100%;
+  }
+
+  body .skills .wrap .ladder p:nth-child(3) {
+    width: 110%;
+  }
+
+  body .skills .wrap .result {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+  body .skills .wrap .result p {
+    font-size: 35px;
+  }
+
+  .tutorials .rotate {
+    right: 100%;
+  }
+
+  .feedback form {
+    width: 50%;
+  }
+
+  footer .socials {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  @keyframes animationr {
+    from {
+      -webkit-transform: translate(0);
+    }
+
+    to {
+      -webkit-transform: translate(-130%);
+    }
+  }
+
+  @keyframes animationl {
+    from {
+      -webkit-transform: translate(-130%);
+    }
+
+    to {
+      -webkit-transform: translate(0%);
+    }
+  }
+
+  body .start_page .inf {
+    width: 80%;
+  }
+
+  body .start_page .img {
+    display: none;
+  }
+
+  body header {
+    grid-template-columns: 2fr 5fr;
+  }
+
+  body header .logo img {
+    width: 100%;
+  }
+
+  body .mean .inf {
+    height: 150px;
+  }
+
+  body .mean .inf p {
+    height: 120px;
+  }
+
+  body .mean .pictures .ladder p {
+    font-size: 30px;
+  }
+
+  body .get .blocks .block {
+    width: 70%;
+  }
+
+  .rotate {
+    display: none;
+  }
+
+  .service .headinf img, .service .reviews_part .arrows {
+    width: 65%;
+  }
+
+  .tutorials {
+    height: 1800px;
+  }
+
+  .tutorials .tutor_inf img {
+    width: 80%;
+  }
+
+  .tutorials .videos {
+    height: 1600px;
+  }
+
+  .tutorials .videos .video {
+    width: 95%;
+    height: 320px;
+  }
+
+  .tutorials .videos .video .video_img {
+    height: 200px;
+  }
+
+  .tutorials .videos .video .video_img img {
+    height: 197px;
+  }
+
+  .tutorials .videos .video .video_img:after {
+    top: 88px;
+  }
+
+  .tutorials .videos .video .video_img:before {
+    top: 111px;
+  }
+
+  .tutorials .videos .video iframe, .tutorials .videos .video video, .tutorials .videos .video .video_img img, .tutorials .videos .video iframe, .tutorials .videos .video:after {
+    height: 250px;
+  }
+
+  .price_page {
+    height: 2050px;
+  }
+
+  .price_page .prices {
+    height: 1715px;
+    justify-content: center;
+  }
+
+  .price_page .prices .price {
+    width: 95%;
+  }
+
+  .price_page .prices .price .card .cost:after {
+    top: 339px;
+    left: 29px;
+  }
+
+  .feedback {
+    height: 650px;
+  }
+
+  .feedback .feedinf img {
+    width: 50%;
+  }
+
+  .feedback form {
+    width: 65%;
+  }
+
+  footer .company_contacts {
+    grid-column: 1 / 6;
+  }
+
+  footer nav {
+    display: none;
+  }
+
+  footer .socials {
+    grid-column: 6 / 13;
+    display: flex;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  body header {
+    width: 95%;
+    height: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5%;
+  }
+
+  body header nav {
+    display: none;
+  }
+
+  body header .login {
+    display: flex;
+  }
+
+  body header .login button, body header .login .submit:after {
+    height: 30px;
+  }
+
+  body header:after {
+    top: 45px;
+  }
+
+  body .start_page .inf {
+    height: 450px;
+  }
+
+  body .start_page .inf .buttons {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  body .mean {
+    height: 500px;
+    gap: 20px;
+  }
+
+  body .mean .inf p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  body .mean .pictures .ladder {
+    width: 95%;
+    height: 185px;
+  }
+
+  body .mean .pictures .ladder p {
+    height: 30px;
+  }
+
+  body .mean .pictures .img {
+    display: none;
+  }
+
+  body .get {
+    justify-items: center;
+  }
+
+  body .get .img {
+    width: 77%;
+    grid-column: 1 / 13;
+  }
+
+  body .get .blocks {
+    grid-column: 1 / 13;
+  }
+
+  body .get .blocks .block {
+    width: 85%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  body .get .blocks .block img {
+    width: 100%;
+    height: 140px;
+  }
+
+  body .get .blocks .block h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  body .get .blocks .block p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  body .skills {
+    height: 800px;
+  }
+
+  body .skills img {
+    width: 90%;
+  }
+
+  body .skills p {
+    text-align: center;
+    width: 90%;
+  }
+
+  body .skills .wrap {
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  body .skills .wrap .ladder {
+    width: 100%;
+    height: 130px;
+    align-items: center;
+  }
+
+  body .skills .wrap .ladder p {
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  body .skills .wrap .ladder p:nth-child(1) {
+    width: 100%;
+  }
+
+  body .skills .wrap .ladder p:nth-child(2) {
+    width: 90%;
+  }
+
+  body .skills .wrap .ladder p:nth-child(3) {
+    width: 80%;
+  }
+
+  body .skills .wrap .img {
+    transform: rotate(90deg);
+  }
+
+  body .skills .wrap .img img {
+    width: 100%;
+  }
+
+  body .skills .wrap .result {
+    width: 90%;
+    height: 200px;
+  }
+
+  body .skills .wrap .result p {
+    font-size: 30px;
+  }
+
+  .mentors_page {
+    height: 800px;
+  }
+
+  .mentors_page .inf p {
+    text-align: center;
+  }
+
+  .mentors_page .inf .mentor-slider {
+    height: 470px;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor {
+    width: 270px !important;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor .portrait {
+    width: 240px;
+    height: 240px;
+    gap: 10px;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor .portrait h1 {
+    font-size: 32px;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor .portrait img {
+    width: 232px;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor .portrait:before, .mentors_page .inf .mentor-slider .mentors .mentor .portrait:after {
+    width: 240px;
+    height: 240px;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor h6 .mark {
+    width: 15%;
+  }
+
+  .mentors_page .inf .mentor-slider .mentors .mentor p {
+    font-size: 16px;
+  }
+
+  .service {
+    height: 1000px;
+  }
+
+  .service .headinf {
+    align-items: center;
+  }
+
+  .service .headinf img {
+    width: 90%;
+  }
+
+  .service .headinf p {
+    font-size: 17px;
+  }
+
+  .service .reviews_part {
+    height: 900px;
+  }
+
+  .service .reviews_part .arrows {
+    width: 100%;
+  }
+
+  .service .reviews_part .arrows .buttons {
+    display: none;
+  }
+
+  .service .reviews_part .reviews {
+    height: 1000px;
+    overflow: visible;
+  }
+
+  .service .reviews_part .reviews .wrap {
+    flex-direction: column;
+  }
+
+  .service .reviews_part .reviews .wrap .review {
+    width: 90%;
+    height: 400px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .service .reviews_part .reviews .wrap .review .date {
+    width: 101%;
+    height: 50px;
+    flex-direction: row;
+  }
+
+  .service .reviews_part .reviews .wrap .review .date h3, .service .reviews_part .reviews .wrap .review .date h6 {
+    font-size: 20px;
+  }
+
+  .service .reviews_part .reviews .wrap .review .information {
+    width: 100%;
+    height: 80%;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .service .reviews_part .reviews .wrap .review .information h1 {
+    font-size: 32px;
+  }
+
+  .tutorials {
+    height: 1600px;
+  }
+
+  .tutorials .tutor_inf {
+    align-items: center;
+  }
+
+  .tutorials .tutor_inf img {
+    width: 100%;
+  }
+
+  .tutorials .tutor_inf p {
+    text-align: center;
+  }
+
+  .tutorials .videos {
+    width: 90%;
+    height: 1400px;
+  }
+
+  .tutorials .videos .video .video_img:after {
+    width: 45px;
+    height: 45px;
+    top: 98px;
+  }
+
+  .tutorials .videos .video .video_img:before {
+    border-width: 8px 8px 8px 12px;
+    top: 113px;
+  }
+
+  .tutorials .videos .video .name {
+    align-items: center;
+  }
+
+  .price_page .bg {
+    width: 220px;
+    top: 150px;
+    left: 10%;
+  }
+
+  .price_page h1 {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .price_page p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .price_page .sessies {
+    width: 90%;
+    gap: 30px;
+  }
+
+  .price_page .sessies button {
+    width: 47%;
+    height: 55px;
+  }
+
+  .price_page .prices .price .card .cost h1 {
+    text-align: start;
+  }
+
+  .price_page .prices .price .card .cost:after {
+    top: 341px;
+    left: 21px;
+  }
+
+  footer .socials {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.e0d6eb5d.css.map */

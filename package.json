@@ -1,0 +1,26 @@
+{
+  "name": "coursework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danya543/coursework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danya543/coursework/issues"
+  },
+  "homepage": "https://github.com/danya543/coursework#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0",
+    "sass": "^1.56.1"
+  }
+}

@@ -1,0 +1,429 @@
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("../fonts/GTWalsheimPro/GTWalsheimPro-Bold.eot");
+  src: local("GT Walsheim Pro Bold"), local("GTWalsheimPro-Bold"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Bold.eot") format("eot"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Bold.woff2") format("woff2"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Bold.woff") format("woff"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("../fonts/GTWalsheimPro/GTWalsheimPro-Regular.eot");
+  src: local("GT Walsheim Pro Regular"), local("GTWalsheimPro-Regular"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Regular.eot") format("eot"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Regular.woff2") format("woff2"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Regular.woff") format("woff"), url("../fonts/GTWalsheimPro/GTWalsheimPro-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+.swiper-slide {
+  width: 23%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: 2fr 6fr 2fr;
+}
+body header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  width: 50%;
+  text-transform: capitalize;
+}
+body header nav a {
+  text-decoration: none;
+  color: #000;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+}
+body header .login {
+  justify-items: end;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body header .login button {
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: capitalize;
+  width: 90px;
+  height: 50px;
+  background: transparent;
+  border: 0;
+}
+body header .login .submit {
+  background: #f9dd64;
+  border: 1px solid #000;
+  position: relative;
+}
+body header .login .submit:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 2px;
+  left: -5px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000;
+}
+body header::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 3%;
+  width: 95%;
+  height: 10px;
+  border: 1px solid black;
+  border-top: 0;
+}
+body .start_page {
+  width: 100%;
+  height: 840px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+body .start_page .inf {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .start_page .inf img {
+  width: 100%;
+}
+body .start_page .inf p {
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-size: 20px;
+  line-height: 120%;
+}
+body .start_page .inf .buttons {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+body .start_page .inf .buttons button {
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  height: 50px;
+  position: relative;
+}
+body .start_page .inf .buttons button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 2px;
+  left: 3px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000;
+}
+body .start_page .inf .buttons .try {
+  width: 120px;
+  background: #fff;
+  border: 1px solid #000;
+}
+body .start_page .inf .buttons .submit {
+  background: #f9dd64;
+  width: 215px;
+  border: 1px solid #000;
+}
+body .start_page .img {
+  width: 52%;
+}
+body .start_page .img img {
+  width: 100%;
+}
+body .mean {
+  margin-top: 20px;
+  border: solid #000;
+  border-width: 1px 0 1px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+body .mean .inf {
+  width: 43%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .mean .inf p {
+  margin-top: 25px;
+  width: 85%;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
+  height: 70px;
+}
+body .mean .pictures {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body .mean .pictures .ladder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  height: 300px;
+}
+body .mean .pictures .ladder p {
+  position: relative;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 92.5%;
+  height: 55px;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  border: 1px solid #000;
+  padding-left: 5px;
+}
+body .mean .pictures .ladder p:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border: 1px solid #000;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+body .mean .pictures .ladder p:nth-child(odd) {
+  background: #000;
+  color: #fff;
+}
+body .mean .pictures .ladder p:nth-child(1) {
+  width: 55%;
+}
+body .mean .pictures .ladder p:nth-child(2) {
+  background: #dedfe1;
+  width: 65%;
+}
+body .mean .pictures .ladder p:nth-child(3) {
+  width: 77%;
+}
+body .mean .pictures .ladder p:nth-child(4) {
+  background: #fff;
+  width: 86%;
+}
+body .mean .pictures .ladder p:nth-child(5) {
+  width: 100%;
+}
+body .mean .pictures .img {
+  width: 40%;
+}
+body .mean .pictures .img img {
+  width: 100%;
+}
+body .rotate {
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 92.5%;
+  font-size: 20px;
+  transform: rotate(270deg) translate(-20px, 40px);
+}
+body .get {
+  margin-top: 20px;
+  width: 100%;
+  height: 1025px;
+  border: solid #000;
+  border-width: 1px 0 1px;
+  position: relative;
+  display: grid;
+}
+body .get .img {
+  width: 30%;
+  grid-column: 3/13;
+  grid-row: 3/4;
+  align-self: center;
+}
+body .get .rotate {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  justify-items: center;
+}
+body .get .blocks {
+  grid-column: 3/13;
+  grid-row: 4/13;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+body .get .blocks .block {
+  width: 32%;
+  height: 45%;
+}
+body .get .blocks .block h1 {
+  margin: 18px 0 10px;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 92.5%;
+  font-size: 38px;
+}
+body .get .blocks .block p {
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-size: 20px;
+}
+body .skills {
+  margin: 100px 5%;
+  width: 95%;
+  height: 405px;
+}
+body .skills img {
+  width: 40%;
+}
+body .skills p {
+  width: 45%;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-size: 20px;
+  margin: 25px 0 65px;
+}
+body .skills .wrap {
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .skills .wrap .ladder {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+  width: 30%;
+}
+body .skills .wrap .ladder p {
+  color: #fff;
+  margin: 0;
+  width: 70%;
+  position: relative;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 92.5%;
+  height: 55px;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  border: 1px solid #000;
+  padding-left: 5px;
+}
+body .skills .wrap .ladder p:nth-child(odd) {
+  background: #000;
+}
+body .skills .wrap .ladder p:nth-child(2) {
+  background: #dedfe1;
+  width: 82%;
+}
+body .skills .wrap .ladder p:nth-child(3) {
+  width: 100%;
+}
+body .skills .wrap .ladder p:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border: 1px solid #000;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+body .skills .wrap .img {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+body .skills .wrap .img img {
+  width: 70%;
+}
+body .skills .wrap .result {
+  width: 32%;
+  height: 100%;
+}
+body .skills .wrap .result p {
+  color: #fff;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-size: 44px;
+  margin: 0;
+  width: 100%;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 3px 2px 0 #000;
+}
+
+.mentors_page {
+  width: 100%;
+}
+.mentors_page .mentor-slider {
+  height: 300px;
+  width: 100%;
+}
+.mentors_page .mentor-slider .mentors {
+  width: 100%;
+}
+.mentors_page .mentor-slider .mentors .swiper-slide {
+  width: 23% !important;
+}/*# sourceMappingURL=styles.css.map */
