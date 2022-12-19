@@ -1287,7 +1287,7 @@ body .skills .wrap .result p {
   height: 100%;
   z-index: -1;
   z-index: 0;
-  width: 88%;
+  width: 85%;
   height: 50px;
   border: 1px solid #000;
   position: absolute;
@@ -1689,7 +1689,6 @@ footer .socials {
   }
 
   .price_page .prices .price .card .cost:after {
-    width: 85%;
     left: 24px;
   }
 }
